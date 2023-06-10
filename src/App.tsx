@@ -1,26 +1,21 @@
+/*
+ * @Author: cathylee 447932704@qq.com
+ * @Date: 2023-05-05 21:57:58
+ * @LastEditors: cathylee 447932704@qq.com
+ * @LastEditTime: 2023-05-27 22:14:19
+ * @FilePath: /loadFile/client/src/App.tsx
+ * @Description: 
+ * 
+ * Copyright (c) 2023 by ${git_name_email}, All Rights Reserved. 
+ */
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import Upload from './Upload';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className='app'>
+            <Upload />
+        </div>
+    )
 }
-
 export default App;
